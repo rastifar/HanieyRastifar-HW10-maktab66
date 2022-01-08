@@ -1,2 +1,24 @@
+.outer::before {
+  content: "Loading";
+  color: #b3e5fc;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+.inner {
+  border: 6px solid #b3e5fc;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border-top: 6px solid rgb(255, 255, 255);
+  animation: loader 2s linear 1s infinite;
+}
 
-
+@keyframes loader {
+  0% {
+    transform: rotate(0 deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
