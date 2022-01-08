@@ -1,8 +1,8 @@
 .outer::before {
   content: "Loading";
-  color: #b3e5fc;
+  color: #a9dff8;
   position: absolute;
-  top: 20%;
+  top: 6%;
   left: 2%;
 }
 .inner {
